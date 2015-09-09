@@ -1,0 +1,11 @@
+
+body {
+	background: url("images/Glass-flowers.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	font-family: myriad pro;}
+h1 {color: #fff; text-align: center; font-family: Myriad Pro; font-style: bold; font-size: 48pt;}
+p {color: #fff; text-align: center; font-family: Myriad Pro; font-sytle: italic; font-size: 24pt}
+hr {color: #fff;}
+ul {color: #fff; text-align: center; font-family: Myriad Prod; font-size: 14pt}
