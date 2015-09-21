@@ -4,8 +4,8 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
-	font-family: Playfair Display, serif;}
-h1 {color: #fff; text-align: center; font-family: Source Serif Pro, serif; font-style: bold; font-size: 48pt;}
-p {color: #fff; text-align: center; font-family: Source Serif Pro; font-style: italic; font-size: 24pt}
+	font-family: Myriad Pro;}
+h1 {color: #fff; text-align: center; font-family: Myriad Pro; font-style: bold; font-size: 5 em;}
+p {color: #fff; text-align: center; font-family: Myriad Pro; font-style: italic; font-size: 3 em}
 hr {color: #fff;}
-ul {color: #fff; text-align: center; font-family: Source Serif Pro; font-size: 16pt}
+ul {color: #fff; text-align: center; font-family: Myriad Pro; font-size: 2 em}
