@@ -1,0 +1,39 @@
+
+
+body {	
+	
+	background-color: #424242;
+	text-align: right;
+}
+title {
+	
+}
+img {
+	background: url("images/ce-logo.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	text-align: right;
+	padding: 2em 1em 4em 1em;
+}
+nav {
+	display: block;
+	background-color: #fff;
+	padding: 3px;
+	color: #424242; text-align: center; font-family: Rosario; font-style: normal; font-transform: uppercase; font-size: .75em;
+}
+h1 {
+	color: #fff; text-align: left; font-family: Rosario; font-style: normal; font-size: 3em;
+}
+p {
+	color: #fff; text-align: left; font-family: Rosario; font-style: italic; font-size: 1.25em
+}
+ul {
+	color: #fff; text-align: center; font-family: Rosario; font-style: normal; font-size: 1.25em
+}
+footer {
+	border-top: .25em; border-top-color: #221923;
+	color: #fff; text-align: center; font-family: Rosario; font-style: normal; font-size: 1.25em;
+	padding: 1em 0;
+
+}
