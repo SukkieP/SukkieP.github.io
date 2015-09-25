@@ -10,9 +10,9 @@ title {
 }
 img {
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 25%;
 	display: inline-block;
-	text-align: right;
+	text-align: left;
 	padding: 2em 1em 4em 1em;
 }
 nav {
@@ -28,7 +28,7 @@ h1 {
 	color: #fff; text-align: left; font-family: 'Rosario', sans-serif; font-style: normal; font-size: 3em;
 }
 p {
-	color: #fff; text-align: left; ffont-family: 'Rosario', sans-serif; font-style: italic; font-size: 1.25em
+	color: #fff; text-align: left; font-family: 'Rosario', sans-serif; font-style: italic; font-size: 1.25em
 }
 ul {
 	color: #fff; text-align: center; font-family: 'Rosario', sans-serif; font-style: normal; font-size: 1.25em
