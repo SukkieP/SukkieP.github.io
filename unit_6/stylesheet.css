@@ -1,14 +1,13 @@
 
 
-body {	
-	
+body {
+	background: url("images/ce-image1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-color: #424242;
-	text-align: right;
 }
-title {
-	
-}
-img {
+
+header {
 	background-repeat: no-repeat;
 	background-size: 2em;
 	height: 5em;
@@ -25,6 +24,7 @@ nav {
 	padding: .25em;
 	text-align: center;
 	margin-bottom: 250px;
+	float: center;
 }
 nav a {
 	color: #424242; 
@@ -36,7 +36,7 @@ nav a {
 	display: inline-block;
 }
 h1 {
-	color: #fff; 
+	color: #424242; 
 	text-align: left; 
 	font-family: 'Rosario', sans-serif; 
 	font-style: normal; 
@@ -50,7 +50,7 @@ h2 {
 	font-style: bold; 
 	font-size: 2em;
 	font-color: #424242;
-	margin-left: 70%;
+	margin-left: 90%;
 }
 #hero {
 	margin-left: 10%;
@@ -59,6 +59,44 @@ h2 {
 	background-color: #fff;
 	padding: .5em;
 }
+#hero1 {
+	background: url("images/ce-image1.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align: left;
+	margin-left: 2.5%;
+	margin-right: 40%;
+	margin-bottom: 100px;
+	padding: .5em;
+
+}
+#hero1info {
+	margin-left: 2.5%;
+	float: right;
+}
+#hero2 {
+	background: url("images/ce-image2.png");
+	background-repeat: no-repeat;
+	background-size: 40%;
+	text-align: left;
+	margin-left: 2.5%;
+	margin-right: 40%;
+	margin-bottom: 100px;
+	background-color: #fff;
+	padding: .5em;
+	
+}
+#hero3 {
+	background: url("images/ce-image3.png");
+	background-repeat: no-repeat;
+	background-size: 40%;
+	text-align: left;
+	margin-left: 2.5%;
+	margin-right: 40%;
+	margin-bottom: 100px;
+	background-color: #fff;
+	padding: .5em;
+	
 #collection {
 	margin-left: 10%;
 	margin-right: 10%;
@@ -70,7 +108,7 @@ h3 {
 	font-family:'Rosario', sans-serif; 
 	font-style: bold; 
 	font-size: 1.5em;
-	font-color: #fff;
+	font-color: #424242;
 }
 p {
 	color: #424242; 
