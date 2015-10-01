@@ -68,7 +68,7 @@ div img {
 }
 #hero {
 	width: 80%;
-	height: 900px;
+	height: 800px;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 100px;
@@ -83,7 +83,7 @@ div img {
 	text-align: left;
 	margin-left: 2.5%;
 	width: 70%;
-	height: 70%;
+	height: 50%;
 	margin-bottom: 2%;
 	padding: .5em;
 	float: left;
@@ -102,9 +102,9 @@ div img {
 	background-size: 100%;
 	text-align: left;
 	margin-left: 2.5%;
-	margin-bottom: 200px;
+	margin-bottom: 50px;
 	background-color: #fff;
-	padding-top: 200px;
+	padding-top: 250px;
 	width: 40%;
 	float: left;	
 }
@@ -114,9 +114,9 @@ div img {
 	background-size: 100%;
 	text-align: left;
 	margin-right: 2.5%;
-	margin-bottom: 200px;
+	margin-bottom: 50px;
 	background-color: #fff;
-	padding-top: 200px;
+	padding-top: 250px;
 	width: 40%;
 	float: right;
 	
