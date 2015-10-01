@@ -123,15 +123,16 @@ div img {
 }
 div.img {
 	margin: .5%;
-	padding: 1%;
+	padding: .5%;
 	height: 19%;
-	width: 15%;
+	weight: auto;
 	float: left;
 	text-align: left;
 }
 	
 div.img img {
-	display: inline;
+	display: inline-block;
+	background-size: 100%;
 	margin-left: .5%;
 }
 div.img a:hover img {
@@ -140,14 +141,14 @@ div.img a:hover img {
 div.desc {
 	text-align: left;
 	font-weight: normal;
-	width: 20%;
+	width: 19%;
 	margin: .5%;
 }
 div p {
 	color: #424242; 
 	text-align: left; 
 	font-family: 'Rosario', sans-serif; 
-	font-style: italic; 
+	font-style: normal; 
 	font-size: 1em;
 	display: inline-block;
 }
@@ -175,7 +176,7 @@ ul {
 	font-style: normal; 
 	font-size: 1.25em
 }
-footer {
+footer p {
 	border-top: .25em; 
 	border-top-color: #221923;
 	color: #fff; 
@@ -183,6 +184,7 @@ footer {
 	font-family: 'Rosario', sans-serif; 
 	font-style: normal; 
 	font-size: 1.25em;
+	margin-top: 1em;
 	padding: 1em 0;
 
 }
