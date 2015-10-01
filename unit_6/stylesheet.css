@@ -92,34 +92,33 @@ div img {
 #hero2 {
 	background: url("images/ce-image2.png");
 	background-repeat: no-repeat;
-	background-size: 40%;
+	background-size: 100%;
 	text-align: left;
 	margin-left: 2.5%;
-	margin-right: 40%;
 	margin-bottom: 100px;
 	background-color: #fff;
-	padding: .5em;
-	
+	padding-top: 150px;
+	float: left;	
 }
 #hero3 {
 	background: url("images/ce-image3.png");
 	background-repeat: no-repeat;
-	background-size: 40%;
+	background-size: 100%;
 	text-align: left;
 	margin-left: 2.5%;
-	margin-right: 40%;
 	margin-bottom: 100px;
 	background-color: #fff;
-	padding: .5em;
+	padding-top: 150px;
+	float: right;
 	
-div collection {
+div.collection {
 	display: inline-block;
 	width: 200px;
 	height: 350px;
 	margin: 10px;
 	padding: 20px;
 	float: right;
-	backgound-color: #fff;
+	background-color: #fff;
 }
 h3 {
 	text-transform: uppercase;
