@@ -27,7 +27,6 @@ nav {
 }
 a:hover {
 	color: #dbb8e3;
-	background-color: #424242;
 }
 nav a {
 	color: #424242; 
@@ -124,11 +123,12 @@ div.gallery {
 	display: inline-block;
 	margin-left: 10%;
 	margin-right: 10%;
+	margin-bottom: 2%;
 }
 div.img {
 	margin: .5%;
 	padding: .5%;
-	width: 19%;
+	width: 24%;
 	height: auto;
 	float: left;
 	text-align: left;
@@ -136,7 +136,7 @@ div.img {
 	
 div.img img {
 	display: inline-block;
-	width: 19%;
+	width: 24%;
 	height: 15%;
 	background-size: 100%;
 	margin-left: .5%;
