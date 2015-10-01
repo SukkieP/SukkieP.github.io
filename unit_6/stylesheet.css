@@ -68,7 +68,7 @@ div img {
 }
 #hero {
 	width: 80%;
-	height: 600px;
+	height: 700px;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 100px;
@@ -83,12 +83,15 @@ div img {
 	text-align: left;
 	margin-left: 2.5%;
 	width: 70%;
-	margin-bottom: 100px;
+	height: 70%;
+	margin-bottom: 10px;
 	padding: .5em;
+	float: left;
 
 }
 #hero1info {
 	margin-left: 2.5%;
+	float: right;
 }
 #hero2 {
 	background: url("images/ce-image2.png");
@@ -96,9 +99,10 @@ div img {
 	background-size: 100%;
 	text-align: left;
 	margin-left: 2.5%;
-	margin-bottom: 100px;
+	margin-bottom: 200px;
 	background-color: #fff;
-	padding-top: 150px;
+	padding-top: 200px;
+	width: 40%;
 	float: left;	
 }
 #hero3 {
@@ -107,9 +111,10 @@ div img {
 	background-size: 100%;
 	text-align: left;
 	margin-left: 2.5%;
-	margin-bottom: 100px;
+	margin-bottom: 200px;
 	background-color: #fff;
-	padding-top: 150px;
+	padding-top: 200px;
+	width: 40%;
 	float: right;
 	
 div.collection {
