@@ -17,13 +17,17 @@ header {
 	float: left;
 	padding-right: 2em;
 	padding-left: 10em;
+	margin-bottom: 250px;
 }
 nav {
 	display: block;
 	background-color: #fff;
 	padding: .25em;
 	text-align: center;
-	margin-bottom: 250px;
+}
+a:hover {
+	color: #dbb8e3;
+	backround-color: #424242;
 }
 nav a {
 	color: #424242; 
@@ -33,6 +37,7 @@ nav a {
 	text-transform: uppercase; 
 	font-size: 1em;
 	display: inline-block;
+	text-decoration: none;
 }
 h1 {
 	color: #424242; 
@@ -51,7 +56,18 @@ h2 {
 	font-color: #424242;
 	margin-left: 90%;
 }
+div a {
+	color: #424242;
+	font-family: 'Rosario', sans-serif;
+	text-decoration: none;
+}
+div img {
+	width: 19%;
+	float: right;
+}
 #hero {
+	width: 80%;
+	height: 600px;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 100px;
@@ -96,11 +112,14 @@ h2 {
 	background-color: #fff;
 	padding: .5em;
 	
-div.collection {
+div collection {
 	display: inline-block;
+	width: 200px;
+	height: 350px;
 	margin: 10px;
 	padding: 20px;
 	float: right;
+	backgound-color: #fff;
 }
 h3 {
 	text-transform: uppercase;
