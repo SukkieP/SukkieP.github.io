@@ -120,15 +120,28 @@ div img {
 	padding-top: 275px;
 	width: 40%;
 	float: right;
+}
+div.img {
+	margin: .5%;
+	padding: 1%;
+	height: 19%;
+	width: 15%;
+	float: left;
+	text-align: left;
+}
 	
-div.collection {
-	display: inline-block;
-	width: 19%x;
-	height: 15%;
-	margin-left: 2.5%;
-	margin-right: 2.5%;
-	float: right;
-	background-color: #fff;
+div.img img {
+	display: inline;
+	margin-left: .5%;
+}
+div.img a:hover img {
+	background-color: #dbb8e3;
+}
+div.desc {
+	text-align: left;
+	font-weight: normal;
+	width: 20%;
+	margin: .5%;
 }
 div p {
 	color: #424242; 
