@@ -70,7 +70,7 @@ div img {
 }
 #hero {
 	width: 80%;
-	height: 60%;
+	height: 40%;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 10%;
@@ -123,9 +123,9 @@ div img {
 	
 div.collection {
 	display: inline-block;
-	width: 200px;
-	height: 350px;
-	margin: 10px;
+	width: 19%x;
+	height: 15%;
+	margin: 2%;
 	padding: 20px;
 	float: right;
 	background-color: #fff;
