@@ -27,7 +27,7 @@ nav {
 }
 a:hover {
 	color: #dbb8e3;
-	backround-color: #424242;
+	background-color: #424242;
 }
 nav a {
 	color: #424242; 
@@ -45,8 +45,7 @@ h1 {
 	font-family: 'Rosario', sans-serif; 
 	font-style: normal; 
 	font-size: 3em;
-	width: 20%;
-	float: right;
+
 }
 
 h2 {
@@ -73,7 +72,7 @@ div img {
 	height: 40%;
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-bottom: 10%;
+	margin-bottom: 1%;
 	background-color: #fff;
 	display: inline-block;
 	padding: .5em;
@@ -121,17 +120,24 @@ div img {
 	width: 40%;
 	float: right;
 }
+div.gallery {
+	display: inline-block;
+	margin-left: 10%;
+	margin-right: 10%;
+}
 div.img {
 	margin: .5%;
 	padding: .5%;
-	height: 19%;
-	weight: auto;
+	width: 19%;
+	height: auto;
 	float: left;
 	text-align: left;
 }
 	
 div.img img {
 	display: inline-block;
+	width: 19%;
+	height: 15%;
 	background-size: 100%;
 	margin-left: .5%;
 }
@@ -186,5 +192,6 @@ footer p {
 	font-size: 1.25em;
 	margin-top: 1em;
 	padding: 1em 0;
+	display: block;
 
 }
