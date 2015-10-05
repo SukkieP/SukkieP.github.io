@@ -1,7 +1,7 @@
 
 
 body {
-	background: url("images/ce-image1.png");
+	background: url("images/ce-image1-big.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #424242;
@@ -17,7 +17,7 @@ header {
 	float: left;
 	padding-right: 2em;
 	padding-left: 15%;
-	margin-bottom: 150px;
+	margin-bottom: 15%;
 }
 nav {
 	display: block;
@@ -39,7 +39,7 @@ nav a {
 	text-decoration: none;
 }
 h1 {
-	color: #424242; 
+	color: #fff; 
 	text-align: left; 
 	font-family: 'Rosario', sans-serif; 
 	font-style: normal; 
@@ -61,67 +61,45 @@ div a {
 	font-family: 'Rosario', sans-serif;
 	text-decoration: none;
 }
-div img {
-	width: 19%;
-	height: 15%;
-	float: right;
-}
 #hero {
 	width: 70%;
 	height: 40%;
 	margin-left: 15%;
 	margin-right: 15%;
-	margin-bottom: 1%;
+	margin-bottom: .5%;
 	background-color: #fff;
 	display: inline-block;
-	padding: .5em;
+	padding: .25em;
 }
 #hero1 {
 	background: url("images/ce-image1.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	text-align: left;
-<<<<<<< HEAD
-	margin-left: 2.5%;
-	width: 95%;
-=======
-	margin-top: 5%;
+	margin-top: .5%;
 	margin-left: 5%;
 	margin-right: 5%;
 	width: 90%;
->>>>>>> origin/master
-	height: 50%;
-	margin-bottom: 0%;
+	height: 40%;
 	margin-top: 2.5%;
-	padding-top: 50%;
+	padding-top: 45%;
 
 }
 #hero1info {
-<<<<<<< HEAD
-	margin-left: 10%;
-	width: 50%;
-=======
-	margin-right: 10%;
-	margin-left: 10%;
-	width: 80%;
->>>>>>> origin/master
+	width: 90%;
 	display: inline-block;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 #hero2 {
 	background: url("images/ce-image2.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	text-align: left;
-<<<<<<< HEAD
-	margin-left: 2.5%;
-	margin-bottom: 0%;
-=======
 	margin-left: 5%;
-	margin-bottom: 1%;
->>>>>>> origin/master
 	background-color: #fff;
-	padding-top: 250px;
-	width: 40%;
+	padding-top: 25%;
+	width: 42.5%;
 	float: left;	
 }
 #hero3 {
@@ -129,52 +107,53 @@ div img {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	text-align: left;
-<<<<<<< HEAD
-	margin-right: 2.5%;
-	margin-bottom: 0%;
-=======
 	margin-right: 5%;
-	margin-bottom: 1%;
->>>>>>> origin/master
 	background-color: #fff;
-	padding-top: 250px;
-	width: 40%;
+	padding-top: 25%;
+	width: 42.5%;
 	float: right;
 }
 div.gallery {
 	display: inline-block;
 	margin-left: 15%;
 	margin-right: 15%;
-<<<<<<< HEAD
 	margin-bottom: .5%;
-=======
 	margin-bottom: 2%;
->>>>>>> origin/master
+	width: 70%;
+	color: #fff;
 }
 div.img {
+	background-repeat: no-repeat;
+	background-size: 25%;
 	margin: .5%;
 	padding: .5%;
+	border: .25% #424242;
 	width: 24%;
 	height: auto;
 	float: left;
-	text-align: left;
+	text-align: center;
 }
 	
 div.img img {
 	display: inline-block;
-	width: 19%;
-	height: 15%;
-	background-size: 100%;
-	margin-left: .5%;
+	size: 20%;
+	border: .25% #424242;
 }
 div.img a:hover img {
 	background-color: #dbb8e3;
 }
 div.desc {
-	text-align: left;
+	text-align: center;
 	font-weight: normal;
-	width: 19%;
-	margin: .5%;
+	width: 25%;
+}
+div.desc a{
+	text-align: center;
+	font-weight: normal;
+	font-family: 'Rosario', sans-serif;
+	font-style: normal;
+	font-size: 1em;
+	color: #fff;
 }
 div p {
 	color: #424242; 
@@ -184,19 +163,19 @@ div p {
 	font-size: 1em;
 	display: inline-block;
 }
-h3 {
+div.gallery h3{
 	text-transform: uppercase;
 	text-align: left; 
 	font-family: 'Rosario', sans-serif; 
 	font-style: bold; 
 	font-size: 1.5em;
-	font-color: #424242;
+	font-color: #fff;
 }
 p {
 	color: #424242; 
 	text-align: left; 
 	font-family: 'Rosario', sans-serif; 
-	font-style: italic; 
+	font-style: normal; 
 	font-size: 1em;
 	float: left;
 	display: inline-block;
