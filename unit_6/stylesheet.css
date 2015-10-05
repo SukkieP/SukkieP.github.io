@@ -1,7 +1,7 @@
 
 
 body {
-	background: url("images/ce-image1-big.png");
+	background: url("images/ce-image1-big-3.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #424242;
@@ -10,20 +10,20 @@ body {
 header {
 	background-repeat: no-repeat;
 	background-size: 2em;
-	height: 5em;
-	width: 5em;
+	background-color: rgba(255, 255, 255, 0.75);
 	display: inline-block;
+	width: 100%;
 	text-align: left;
-	float: left;
-	padding-right: 2em;
+	padding-right: 0em;
 	padding-left: 15%;
-	margin-bottom: 15%;
+	margin: 0, 0, 10%, 0;
 }
 nav {
 	display: block;
 	background-color: #fff;
 	padding: .5em;
 	text-align: center;
+	margin-bottom: 1.5%;
 }
 a:hover {
 	color: #dbb8e3;
@@ -39,7 +39,7 @@ nav a {
 	text-decoration: none;
 }
 h1 {
-	color: #fff; 
+	color: #64049b; 
 	text-align: left; 
 	font-family: 'Rosario', sans-serif; 
 	font-style: normal; 
@@ -67,7 +67,7 @@ div a {
 	margin-left: 15%;
 	margin-right: 15%;
 	margin-bottom: .5%;
-	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.85);
 	display: inline-block;
 	padding: .25em;
 }
@@ -118,9 +118,9 @@ div.gallery {
 	margin-left: 15%;
 	margin-right: 15%;
 	margin-bottom: .5%;
-	margin-bottom: 2%;
 	width: 70%;
-	color: #fff;
+	font-color: #424242;
+	text-align: center;
 }
 div.img {
 	background-repeat: no-repeat;
@@ -136,8 +136,8 @@ div.img {
 	
 div.img img {
 	display: inline-block;
-	size: 20%;
-	border: .25% #424242;
+	size: 24%;
+	width: auto;
 }
 div.img a:hover img {
 	background-color: #dbb8e3;
@@ -145,7 +145,7 @@ div.img a:hover img {
 div.desc {
 	text-align: center;
 	font-weight: normal;
-	width: 25%;
+	width: 24%;
 }
 div.desc a{
 	text-align: center;
@@ -153,7 +153,7 @@ div.desc a{
 	font-family: 'Rosario', sans-serif;
 	font-style: normal;
 	font-size: 1em;
-	color: #fff;
+	color: #424242;
 }
 div p {
 	color: #424242; 
@@ -163,13 +163,13 @@ div p {
 	font-size: 1em;
 	display: inline-block;
 }
-div.gallery h3{
+h3{
 	text-transform: uppercase;
 	text-align: left; 
 	font-family: 'Rosario', sans-serif; 
 	font-style: bold; 
 	font-size: 1.5em;
-	font-color: #fff;
+	font-color: #424242;
 }
 p {
 	color: #424242; 
@@ -187,16 +187,16 @@ ul {
 	font-style: normal; 
 	font-size: 1.25em
 }
-footer p {
-	border-top: .25em; 
-	border-top-color: #221923;
-	color: #fff; 
+footer {
+	background-color: rgba(255, 255, 255, 0.75);
+	width: 100%;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-color: #424242; 
 	text-align: center; 
 	font-family: 'Rosario', sans-serif; 
 	font-style: normal; 
 	font-size: 1.25em;
-	margin-top: 1em;
-	padding: 1em 0;
 	display: block;
 
 }
