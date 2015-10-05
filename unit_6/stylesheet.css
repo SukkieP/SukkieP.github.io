@@ -81,8 +81,15 @@ div img {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	text-align: left;
+<<<<<<< HEAD
 	margin-left: 2.5%;
 	width: 95%;
+=======
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+>>>>>>> origin/master
 	height: 50%;
 	margin-bottom: 0%;
 	margin-top: 2.5%;
@@ -90,8 +97,14 @@ div img {
 
 }
 #hero1info {
+<<<<<<< HEAD
 	margin-left: 10%;
 	width: 50%;
+=======
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 80%;
+>>>>>>> origin/master
 	display: inline-block;
 }
 #hero2 {
@@ -99,8 +112,13 @@ div img {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	text-align: left;
+<<<<<<< HEAD
 	margin-left: 2.5%;
 	margin-bottom: 0%;
+=======
+	margin-left: 5%;
+	margin-bottom: 1%;
+>>>>>>> origin/master
 	background-color: #fff;
 	padding-top: 250px;
 	width: 40%;
@@ -111,8 +129,13 @@ div img {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	text-align: left;
+<<<<<<< HEAD
 	margin-right: 2.5%;
 	margin-bottom: 0%;
+=======
+	margin-right: 5%;
+	margin-bottom: 1%;
+>>>>>>> origin/master
 	background-color: #fff;
 	padding-top: 250px;
 	width: 40%;
@@ -122,7 +145,11 @@ div.gallery {
 	display: inline-block;
 	margin-left: 15%;
 	margin-right: 15%;
+<<<<<<< HEAD
 	margin-bottom: .5%;
+=======
+	margin-bottom: 2%;
+>>>>>>> origin/master
 }
 div.img {
 	margin: .5%;
@@ -135,7 +162,7 @@ div.img {
 	
 div.img img {
 	display: inline-block;
-	width: 24%;
+	width: 19%;
 	height: 15%;
 	background-size: 100%;
 	margin-left: .5%;
