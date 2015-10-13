@@ -24,7 +24,6 @@ nav {
 	padding: .5em;
 	text-align: center;
 	margin-bottom: 1.5%;
-	border: 2px;
 }
 a:hover {
 	color: #dbb8e3;
@@ -92,44 +91,45 @@ div a {
 	display: inline-block;
 	margin-left: 5%;
 	margin-right: 5%;
+	padding-top: 0.5%;
 }
 #hero2 {
-	background: url("images/ce-image2.png");
+	width: 30%;
+	height: auto;
 	background-repeat: no-repeat;
-	background-size: 100%;
 	text-align: left;
 	margin-left: 5%;
-	padding-top: 25%;
-	width: 42.5%;
+	margin-right: 5%;
+	padding-top: 0.5%;
 	float: left;	
 }
 #hero3 {
-	background: url("images/ce-image3.png");
+	width: 30%;
+	height: auto;
 	background-repeat: no-repeat;
-	background-size: 100%;
 	text-align: left;
 	margin-right: 5%;
-	padding-top: 25%;
-	width: 42.5%;
+	margin-left: 5%;
+	padding-top: 0.5%;
 	float: right;
 }
 div.gallery {
 	display: inline-block;
 	margin-left: 15%;
 	margin-right: 15%;
-	margin-bottom: .5%;
 	width: 70%;
 	font-color: #424242;
 	text-align: center;
 	background-color: rgba(225, 255, 255, 0.75);
+	padding: 0.5%;
 }
 div.img {
 	background-repeat: no-repeat;
-	background-size: 25%;
-	margin: .5%;
-	padding: .5%;
-	border: .25% #424242;
-	width: 24%;
+	background-size: 23%;
+	margin: 0.5%;
+	padding: 0.5%;
+	border: 0.25% #424242;
+	width: 22.75%;
 	height: auto;
 	float: left;
 	text-align: center;
@@ -137,8 +137,8 @@ div.img {
 	
 div.img img {
 	display: inline-block;
-	size: 24%;
-	width: auto;
+	width: 100%;
+	height: auto;
 }
 div.img a:hover img {
 	background-color: #dbb8e3;
@@ -188,12 +188,29 @@ ul {
 	font-style: normal; 
 	font-size: 1.25em
 }
-@media only screen and (min-width: 768px)
+footer {
+	background-color: rgba(255, 255, 255, 0.75);
+	width: 100%;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-color: #424242; 
+	text-align: center; 
+	font-family: 'Rosario', sans-serif; 
+	font-style: normal; 
+	font-size: 1.25em;
+	display: block;
+
+}
+div data-role="footer" {
+	text-align: right;
+	float: right;
+}
+
+@media only screen and (max-width: 768px)
 	{
 	width: 100%;
 }
-}
-@media only screen and (min-width: 320px) and (max-width: 480px)
+@media only screen and (min-width: 320px) and (max-width: 480px){
 	{
 	width: 100%;
 	margin-left: 1%;
@@ -238,12 +255,14 @@ ul {
 			height: auto;
 			float: none;
 			margin: 1%;
+			padding-bottom: 15%;
 		}
 		#hero3 {
 			width: 98%;
 			height: auto;
 			float: none;
 			margin: 1%;
+			padding-bottom: 15%;
 		}
 		div.gallery {
 			width: 98%;
@@ -255,21 +274,7 @@ ul {
 			width: 100%;
 			height: auto;
 		}
-}
-footer {
-	background-color: rgba(255, 255, 255, 0.75);
-	width: 100%;
-	margin-left: 15%;
-	margin-right: 15%;
-	font-color: #424242; 
-	text-align: center; 
-	font-family: 'Rosario', sans-serif; 
-	font-style: normal; 
-	font-size: 1.25em;
-	display: block;
-
-}
-div data-role="footer" {
-	text-align: right;
-	float: right;
+		footer{
+			margin: 1%;
+		}
 }
