@@ -115,18 +115,19 @@ div.gallery {
 	display: inline-block;
 	margin-left: 15%;
 	margin-right: 15%;
-	margin-bottom: .5%;
 	width: 70%;
 	font-color: #424242;
 	text-align: center;
+	background-color: rgba(225, 255, 255, 0.75);
+	padding: 0.5%;
 }
 div.img {
 	background-repeat: no-repeat;
-	background-size: 25%;
-	margin: .5%;
-	padding: .5%;
-	border: .25% #424242;
-	width: 24%;
+	background-size: 23%;
+	margin: 0.5%;
+	padding: 0.5%;
+	border: 0.25% #424242;
+	width: 22.75%;
 	height: auto;
 	float: left;
 	text-align: center;
@@ -134,8 +135,8 @@ div.img {
 	
 div.img img {
 	display: inline-block;
-	size: 24%;
-	width: auto;
+	width: 100%;
+	height: auto;
 }
 div.img a:hover img {
 	background-color: #dbb8e3;
