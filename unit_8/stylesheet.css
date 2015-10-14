@@ -208,6 +208,7 @@ footer {
 }
 footer p {
 	text-align: center;
+	float: none;
 }
 div data-role="footer" {
 	text-align: right;
