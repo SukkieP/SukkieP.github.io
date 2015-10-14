@@ -25,6 +25,9 @@ nav {
 	text-align: center;
 	margin-bottom: 1.5%;
 }
+nav a#mobilenav {
+	display: none;
+}
 a:hover {
 	color: #dbb8e3;
 	background-color: #424242;
@@ -70,7 +73,6 @@ div a {
 	margin-bottom: .5%;
 	background-color: rgba(255, 255, 255, 0.85);
 	display: inline-block;
-	padding: .25em;
 }
 #hero1 {
 	background: url("images/ce-image1.png");
@@ -127,7 +129,6 @@ div.gallery {
 	font-color: #424242;
 	text-align: center;
 	background-color: rgba(225, 255, 255, 0.75);
-	padding: 0.5%;
 }
 div.img {
 	background-repeat: no-repeat;
@@ -211,30 +212,21 @@ footer p {
 	float: none;
 	display: block;
 }
-div data-role="footer" {
-	text-align: right;
-	float: right;
-}
 
-@media only screen and (max-width: 768px)
-	{
-	width: 100%;
+@media only screen and (max-width: 768px){
+
 }
 @media only screen and (min-width: 320px) and (max-width: 480px){
-	{
-	width: 100%;
-	margin-left: 1%;
-	margin-right: 1%;
-		}
 		header {
-			margin: 1%;
+		margin: 1%;
 		}
 		nav a {
-			width: 98%;
-			margin: 1%;
-			height: auto;
-			font-size: .65em;
+		display: none;
 		}
+		nav a#mobilenav {
+		display: block;
+}
+a:hover {
 		h1 {
 			font-size: 1em;
 		}
