@@ -204,8 +204,10 @@ footer {
 	font-family: 'Rosario', sans-serif; 
 	font-style: normal; 
 	font-size: 1.25em;
-	display: block;
-
+	display: block
+}
+footer p {
+	text-align: center;
 }
 div data-role="footer" {
 	text-align: right;
