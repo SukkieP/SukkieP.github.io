@@ -113,6 +113,12 @@ div a {
 	padding-top: 0.5%;
 	float: right;
 }
+#hero2 img{
+	width: 100%;
+}
+#hero3 {
+	width: 100%;
+}
 div.gallery {
 	display: inline-block;
 	margin-left: 15%;
